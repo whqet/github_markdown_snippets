@@ -1,12 +1,11 @@
 # GitHub Markdown Snippets
-Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tags.
-非常实用的，利用**原生html标签方式**书写Markdown的Sublime Text代码段(Sublime Text Snippets)，本版本增加了*中文输入提示*，并且使用*md*前缀避免与原生html标签的*冲突*。
+非常实用的、利用**原生html标签方式**书写Markdown的Sublime Text代码段(Sublime Text Snippets)，本版本增加了*中文输入提示*，并且使用*md*前缀避免与原生html标签的*冲突*。
 
 ![](https://img.shields.io/badge/Version-2.0.1-brightgreen.svg)
 
 ## 安装
 
-### 通过Package Control安装
+### 通过Package Control安装（英文版）
 最简单的方式是通过[Package Control](https://packagecontrol.io/)安装。
 
 - 打开**命令面板-Command Palette** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
