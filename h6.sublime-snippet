@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-###### ${1:Heading 6}
+###### ${1:六号标题}
 ${0}]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>h6</tabTrigger>
+    <tabTrigger>mdh6</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.html.markdown</scope>
 </snippet>
