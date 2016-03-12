@@ -1,69 +1,69 @@
 # GitHub Markdown Snippets
 Helpful Sublime Text snippets to get you started with GitHub flavored Markdown by letting you type the plain old HTML tags.
+非常实用的，利用**原生html标签方式**书写Markdown的Sublime Text代码段(Sublime Text Snippets)，本版本增加了*中文输入提示*，并且使用*md*前缀避免与原生html标签的*冲突*。
 
-![](https://img.shields.io/badge/Version-2.0.0-brightgreen.svg)
+![](https://img.shields.io/badge/Version-2.0.1-brightgreen.svg)
 
-## Installation
+## 安装
 
-### Via Package Control
-The easiest way is to install it via [Package Control](https://packagecontrol.io/).
+### 通过Package Control安装
+最简单的方式是通过[Package Control](https://packagecontrol.io/)安装。
 
-- Go to **Command Palette** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
-- Select **Package Control : Install Package**
-- Search for **Github Markdown Snippets**
+- 打开**命令面板-Command Palette** <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> or <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+- 选择 **Package Control : Install Package**
+- 搜索 **Github Markdown Snippets**
 
-### Manual
+### 手动安装
 
-- Clone the repository or download the [ZIP](https://github.com/praveenpuglia/github-markdown-snippets/archive/master.zip)
-- Extract the archive
-- Put it in your **Packages**( `Preferences > Browse Packages...` ) directory.  
+- 克隆本库或者下载[ZIP](https://github.com/whqet/github_markdown_snippets/archive/2.0.1.zip)
+- 解压缩到**包文件夹-Packages**( `Preferences > Browse Packages...` )  
 
-## Usage
-A consolidated guide is available [here](http://praveenpuglia.github.io/github_markdown_snippets). 
+## 使用
+这里有个简单教程 [here](http://praveenpuglia.github.io/github_markdown_snippets). 
 
-Type a tag name and hit tab. That's it! :relaxed:
+输入md+标签名，然后tab键即可，简单吧。:relaxed:
 
-:snowflake: Long tags like `blockquote` are shortened for power use.
+:snowflake: 类似于`blockquote`的长标签可以使用简写。
 
-## List of Tab Triggers
+## 简写列表
 
 ```
-h1     // Heading 1
-h2     // Heading 2
-h3     // Heading 3
-h4     // Heading 4
-h5     // Heading 5
-h6     // Heading 6
+mdh1     // Heading 1
+mdh2     // Heading 2
+mdh3     // Heading 3
+mdh4     // Heading 4
+mdh5     // Heading 5
+mdh6     // Heading 6
 ```
-# Heading 1  
-## Heading 2  
-### Heading 3  
-#### Heading 4  
-##### Heading 5
-###### Heading 6
+# 一号标题  
+## 二号标题  
+### 三号标题  
+#### 四号标题  
+##### 五号标题
+###### 六号标题
 ```
-b         // Bold
-i         // Italic
-bq        // Blockquote
-strike    // Strikeout
-hr        // Horizontal Rule, Divider
+mdb         // Bold
+mdi         // Italic
+mdbq        // Blockquote
+mdstrike    // Strikeout
+mdhr        // Horizontal Rule, Divider
 ```
-**Bold Text** 
+**粗体文字** 
 
-*Italic Text* 
+*斜体文字* 
 
-> Put a nice, beautiful
-> quote here...
+> 引用文字
+> 继续...
 
-~~Strike Through~~ 
+~~删除线文字~~ 
 
 ---
 
 ```
-code    // Inline Code
-pre     // Code Block with language based highlighting.
+mdcode    // Inline Code
+mdpre     // Code Block with language based highlighting.
 ```
-`Inline Code Snippet`
+`单行代码`
 
 ```javascript
 var message = "Code Block";
@@ -71,32 +71,32 @@ alert( message );
 ```
 
 ```
-a      // Anchor
-img    // Image
+mda      // Anchor
+mdimg    // Image
 ```
-[Link Title](Link) 
+[链接文字](链接地址) 
 
 ![Github Logo](https://wasin.io/wp-content/uploads/2015/05/showimage.png) 
 
 ```
-ol       // Ordered List
-ul       // Unordered List
-table    // Table
+mdol       // Ordered List
+mdul       // Unordered List
+mdtable    // Table
 ```
 
-1. First Item
-2. Second Item
-3. Third Item
+1. 第一项
+2. 第二项
+3. 第三项
 
 
-- I
-- Love
+- 我
+- 爱
 - Markdown
 
-| Column 1 | Column 2 |
+| 表头 | 表头 |
 | ------------- | ------------- |
-| Cell 1-1 | Cell 1-2 |
-| Cell 2-1 | Cell 2-2 |
+| 单元格 | 单元格 |
+| 单元格 | 单元格 |
 
 
 
