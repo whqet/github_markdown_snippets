@@ -1,0 +1,189 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Markdown Snippets简易教程</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://github.com/whqet/github_markdown_snippets"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    <div class="container">
+        <div class="page-header">
+            <h1><a href="https://github.com/whqet/github_markdown_snippets">GitHub Markdown Snippets <small>html标签加md前缀方式书写markdown</small></a></h1>
+            <p class="clearfix">
+                <img src="https://img.shields.io/badge/Version-2.0.1-brightgreen.svg" alt="Version : 2.0.1">
+                <iframe class="pull-right" src="https://ghbtns.com/github-btn.html?user=whqet&repo=github_markdown_snippets&type=star&count=false&size=large" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
+            </p>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>安装</h2>
+                <hr>
+                <p>
+                    手动安装
+                   <ul>
+                    <li>克隆本库或者下载<a href="https://github.com/whqet/github_markdown_snippets/archive/2.0.1.zip">ZIP</a></li>
+                    <li>解压缩到<strong>包文件夹-Packages</strong>( <code>Preferences &gt; Browse Packages...</code> )<br></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>使用</h2>
+                <p class="alert alert-info"><strong>注意!</strong> 本页的输出经过了bootstrap美化</p>
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>输入</th>
+                            <th>Markdown</th>
+                            <th>输出</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>mdi</td>
+                            <td>*斜体文字* </td>
+                            <td><i>斜体文字</i></td>
+                        </tr>
+                        <tr>
+                            <td>mdb</td>
+                            <td>**粗体文字** </td>
+                            <td><strong>粗体文字</strong></td>
+                        </tr>
+                        <tr>
+                            <td>mdbq</td>
+                            <td> > 引用文字 <br> > 继续...</td>
+                            <td><blockquote>引用文字 继续...</blockquote></td>
+                        </tr>
+                        <tr>
+                            <td>mdstrike</td>
+                            <td>~~删除线文字~~</td>
+                            <td><s>删除线文字</s></td>
+                        </tr>
+
+                        <tr>
+                            <td>mdh1</td>
+                            <td># 一号标题</td>
+                            <td><h1>Heading 1</h1></td>
+                        </tr>
+
+                        <tr>
+                            <td>mdh2</td>
+                            <td>## 二号标题</td>
+                            <td><h2>二号标题</h2></td>
+                        </tr>
+                        <tr>
+                            <td>mdh3</td>
+                            <td>### 三号标题</td>
+                            <td><h3>三号标题</h3></td>
+                        </tr>
+                        <tr>
+                            <td>mdh4</td>
+                            <td>#### 四号标题</td>
+                            <td><h4>四号标题</h4></td>
+                        </tr>
+                        <tr>
+                            <td>mdh5</td>
+                            <td>##### 五号标题</td>
+                            <td><h5>五号标题</h5></td>
+                        </tr>
+                        <tr>
+                            <td>mdh6</td>
+                            <td>###### 六号标题</td>
+                            <td><h6>六号标题</h6></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>mdul</td>
+                            <td>- 我  <br>- 爱 <br>- Markdown</td>
+                            <td>
+                                <ul>
+                                    <li>我</li>
+                                    <li>爱</li>
+                                    <li>Markdown</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>mdol</td>
+                            <td>1. 第一项  <br>2. 第二项 <br>3. 第三项</td>
+                            <td>
+                                <ol>
+                                    <li>第一项</li>
+                                    <li>第二项</li>
+                                    <li>第三项</li>
+                                </ol>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>mdcode</td>
+                            <td>`单行代码`</td>
+                            <td><code>单行代码</code></td>
+                        </tr>
+
+                        <tr>
+                            <td>mdpre</td>
+                            <td>```语言 <br> 多行代码<br>``` </td>
+                            <td><pre>多行代码</pre></td>
+                        </tr>
+
+                        <tr>
+                            <td>mda</td>
+                            <td>[链接文字](链接地址)</td>
+                            <td><a href="链接地址">链接文字</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>mdimg</td>
+                            <td>![图片标题](图片地址)</td>
+                            <td><img src="https://camo.githubusercontent.com/d612efdc6605e0a837aae78c8acfd4ea44f9f522/68747470733a2f2f776173696e2e696f2f77702d636f6e74656e742f75706c6f6164732f323031352f30352f73686f77696d6167652e706e67" alt="Image Title"></td>
+                        </tr>
+
+                        <tr>
+                            <td>mdtable</td>
+                            <td>
+                                | 表头 | 表头 | <br>
+                                | -------- | -------- | <br>
+                                | 单元格 | 单元格 | <br>
+                                | 单元格 | 单元格 |
+                            </td>
+                            <td>
+                                <table class="table table-striped table-bordered"><thead>
+                                <tr>
+                                <th>表头</th>
+                                <th>表头</th>
+                                </tr>
+                                </thead><tbody>
+                                <tr>
+                                <td>单元格</td>
+                                <td>单元格</td>
+                                </tr>
+                                <tr>
+                                <td>单元格</td>
+                                <td>单元格</td>
+                                </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>mdhr</td>
+                            <td>---</td>
+                            <td><hr></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
